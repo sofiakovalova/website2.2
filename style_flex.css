@@ -8,13 +8,13 @@ body {
   display: flex; flex-direction: column; gap: 5px; min-height: 100vh;
 }
 
-/* --- ВИПРАВЛЕНО: Текст притиснутий вправо та відцентрований по вертикалі --- */
+
 .top-bar, .bottom-bar {
   background: #005f99; color: white; padding: 0 20px;
   border-radius: 8px; height: 60px; flex: 0 0 auto;
   display: flex; 
-  justify-content: flex-end; /* Вирівнює вкладений .corner вправо */
-  align-items: center;      /* Центрує текст по висоті */
+  justify-content: flex-end; 
+  align-items: center;      
 }
 
 .corner {
@@ -25,7 +25,7 @@ body {
   font-weight: bold;
 }
 
-/* --- ГЕОМЕТРІЯ ВАРІАНТА 6 --- */
+
 .main-wrapper { display: flex; gap: 5px; flex-grow: 1; align-items: stretch; }
 .left-group { flex: 3; display: flex; flex-direction: column; gap: 5px; }
 .upper-content { display: flex; gap: 5px; flex-grow: 1; align-items: stretch; }
@@ -35,7 +35,7 @@ aside.right { background: #cce0ff; padding: 15px; border-radius: 8px; flex: 0 0 
 
 .center-content { flex: 1; display: flex; flex-direction: column; gap: 5px; }
 
-/* МЕНЮ: Горизонтальне */
+
 nav.menu { background: #004477; border-radius: 6px; }
 nav.menu ul { 
   list-style: none; margin: 0; padding: 0; 
@@ -46,5 +46,6 @@ nav.menu ul li a:hover { background: #0066aa; border-radius: 4px; }
 
 main { background: #fff; padding: 20px; border-radius: 8px; flex-grow: 1; }
 .footer-strip { background: #99ccff; padding: 15px; border-radius: 8px; }
+
 
 img { max-width: 100%; border-radius: 6px; }

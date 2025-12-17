@@ -15,14 +15,13 @@ body {
     padding: 10px;
 }
 
-/* ШАПКА ТА ПІДВАЛ */
 .top-bar, .bottom-bar {
     background: #005f99;
     color: white;
     height: 60px;
     display: flex;
-    justify-content: flex-end; /* Текст СТРОГО СПРАВА */
-    align-items: center;       /* Центрування ПО ВЕРТИКАЛІ */
+    justify-content: flex-end; 
+    align-items: center;      
     padding: 0 20px;
     margin-bottom: 5px;
     width: 100%;
@@ -41,7 +40,7 @@ body {
     font-weight: bold;
 }
 
-/* ГЕОМЕТРІЯ FLOAT */
+
 
 aside.right {
     float: right;
@@ -92,7 +91,7 @@ aside.left {
     font-weight: bold;
 }
 
-/* КОНТЕНТ */
+
 main {
     background: white;
     padding: 20px;
@@ -100,7 +99,7 @@ main {
     border-radius: 4px;
 }
 
-/* БЛОК 6 */
+
 .footer-strip {
     clear: both;
     background: #99ccff;
@@ -109,7 +108,7 @@ main {
     border-radius: 4px;
 }
 
-/* Очищення флоатів */
+
 .container::after, .left-content-wrapper::after {
     content: "";
     display: table;
@@ -120,4 +119,5 @@ img {
     max-width: 100%;
     margin-bottom: 10px;
     border-radius: 4px;
+
 }
